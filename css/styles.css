@@ -719,6 +719,9 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
                     .reviw-form-submint-button:hover {
                         background-color: #404bbf;
                     }
+                    .footer-subscribe {
+                        margin-left: auto;
+                       }
                     .footer-subscribe-text {
                         margin-bottom: 16px;
                         font-weight: 500;
@@ -744,7 +747,15 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
                         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
                         border-radius: 4px;
                         color: #ffffff;
+                        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+                    }
+                    .footer-subscribe {
+                        margin-left: auto;
+                    }
+                    .footer-subscribe-input:focus {
+                        outline: none;
+                        border-color: #31d0aa;
                     }
                     .footer-subscribe-input::placeholder {
                         color: #ffffff;
@@ -765,8 +776,12 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
                         background-color: #4D5AE5;
                         border: none;
                         border-radius: 4px;
+                        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                     }
                     .subscribe-icon {
                         margin-left: 16px;
-                        
+
                     }
+                    .footer-subscribe-button:focus {
+                        background-color: #31d0aa;
+                                        }
