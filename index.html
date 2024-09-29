@@ -483,6 +483,26 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p class="footer-subscribe-text">Subscribe</p>
+          <form class="footer-subscribe-form">
+            <label class="footer-subscribe-label" for="user-subscribe-email">
+              <input
+                class="footer-subscribe-input"
+                type="email"
+                id="user-subscribe-email"
+                name="user-subscribe-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="footer-subscribe-button" type="submit">
+              Subscribe
+              <svg class="subscribe-icon" height="24" width="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-open">
@@ -545,7 +565,7 @@
             >
             <textarea
               class="reviw-comment"
-              name="usercomment"
+              name="user-comment"
               id="user-comment"
               placeholder="Text input"
               required
@@ -555,12 +575,12 @@
             <input
               class="reviw-form-checkbox visually-hidden"
               type="checkbox"
-              id="privacy-polici"
-              name="privacypolici"
+              id="user-privacy"
+              name="user-privacy"
               value="true"
               required
             />
-            <label class="reviw-form-checkbox-label" for="privacy-polici">
+            <label class="reviw-form-checkbox-label" for="user-privacy">
               <span class="reviw-form-custom-checkbox">
                 <svg class="reviw-form-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-checmarc"></use>
