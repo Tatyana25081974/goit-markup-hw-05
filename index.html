@@ -539,7 +539,7 @@
               </svg>
             </div>
           </div>
-          <div class="reviw-comment-field">
+          <div class="reviw-comment-wrapper">
             <label class="reviw-form-input-label" for="user-comment"
               >Comment</label
             >
@@ -549,15 +549,27 @@
               id="user-comment"
               placeholder="Text input"
               required
-            >
-            </textarea>
+            ></textarea>
           </div>
           <div class="reviw-form-checkbox-wrapper">
-            <input class="reviw-form-checkbox" type="checkbox" />
-            <label class="reviw-form-checkbox-label" for=""
-              >I accept the terms and conditions of the
-              <a href="" class="reviw-form-polici-link" href=""></a> Privacy
-              Policy</label
+            <input
+              class="reviw-form-checkbox visually-hidden"
+              type="checkbox"
+              id="privacy-polici"
+              name="privacypolici"
+              value="true"
+              required
+            />
+            <label class="reviw-form-checkbox-label" for="privacy-polici">
+              <span class="reviw-form-custom-checkbox">
+                <svg class="reviw-form-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checmarc"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="reviw-form-polici-link" href="">
+                Privacy Policy</a
+              ></label
             >
           </div>
           <button class="reviw-form-submint-button" type="submit">Send</button>
